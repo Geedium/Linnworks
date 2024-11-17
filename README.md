@@ -58,7 +58,7 @@ v1
 | **Dashboards API**                         | ✔ Dashboards `dashboards` |
 | **Email API**                              | ✔ Email `email` |
 | **Generic Listings API**                   | ✔ GenericListings `genericListings` |
-| **Import and Export API**                  | ✗           |
+| **Import and Export API**                  | ✔ ImportExport `importExport` |
 | **Listings API**                           | ✗           |
 | **Locations API**                          | ✗           |
 | **Macros API**                             | ✗           |

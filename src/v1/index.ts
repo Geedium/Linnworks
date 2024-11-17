@@ -4,6 +4,7 @@ import { Authenticate } from "./authenticate";
 import { Dashboards } from "./dashboards";
 import { Email } from "./email";
 import { GenericListings } from "./generic-listings";
+import { ImportExport } from "./import-export";
 import { ShippingService } from "./shipping-service";
 
 class LinnworksApi extends LinnworksBase {
@@ -12,6 +13,7 @@ class LinnworksApi extends LinnworksBase {
     public readonly email: Email;
     public readonly genericListings: GenericListings;
     public readonly shippingService: ShippingService;
+    public readonly importExport: ImportExport;
 
     constructor(options: ApiOptions) {
         super(options);
@@ -20,6 +22,7 @@ class LinnworksApi extends LinnworksBase {
         this.email = new Email(options);
         this.genericListings = new GenericListings(options);
         this.shippingService = new ShippingService(options);
+        this.importExport = new ImportExport(options);
     }
 }
 
